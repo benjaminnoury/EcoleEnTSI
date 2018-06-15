@@ -50,7 +50,7 @@
 </ul>
 <p>Il est également possible de changer le critère de tri des écoles ( par défaut, par ordre alphabétique des noms des écoles ) en cliquant sur les entêtes de colonne.</p>
 <div class="maj">
-<p>Mise à jour le 15 juin à 14:30</p>
+<p>Mise à jour le 15 juin à 14:42</p>
 </div>
 <table id="tableau_ecole" class="pure-table pure-table-responsive pure-table-striped">
 <colgroup>
@@ -2176,8 +2176,11 @@
 <script>$(document).ready(function() {
     $('#tableau_ecole').DataTable({
         "paging":   false,
-        "info":     false       
-        });
+        "info":     false,      
+        "language": {
+              "search": "Filtrer les écoles : "
+              }
+          });
     });</script>
 	</div>
 </div>

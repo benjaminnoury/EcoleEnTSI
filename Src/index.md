@@ -41,6 +41,9 @@ date +Mise\ à\ jour\ le\ %d\ %h\ à\ %H:%M
 <script>$(document).ready(function() {
 	$('#tableau_ecole').DataTable({
 		"paging":	false,
-		"info":		false		
-		});
+		"info":		false,		
+		"language": {
+		      "search": "Filtrer les écoles : "
+		      }
+		  });
 	});</script>
