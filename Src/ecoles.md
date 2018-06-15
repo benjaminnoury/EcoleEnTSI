@@ -1,8 +1,5 @@
 ---
 title: Écoles d'ingénieur recrutant des TSI
-header-includes:
-	- <script type="text/javascript" charset="utf8" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-	- <script type="text/javascript" charset="utf8" src="http://cdn.datatables.net/1.10.3/js/jquery.dataTables.js"></script>
 --- 
 
 
