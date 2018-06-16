@@ -6,7 +6,8 @@ Centrale Lyon,Lyon,Lyon,Généraliste,Centrale Supelec,Centrale-supelec,
 Centrale Marseille,Marseille,Marseille,Généraliste,Centrale Supelec,Centrale-supelec,
 Centrale Nantes,Nantes,Nantes,Généraliste,Centrale Supelec,Centrale-supelec,
 Centrale Paris,Versailles,Châtenay-Malabry,Généraliste,Centrale Supelec,Centrale-supelec,
-CPE Lyon,Lyon,Lyon,Électronique,CCP,Concours communs,
+CPE Lyon,Lyon,Lyon,"Électronique, télécomunications, informatique, chimie, génie des matériaux",CCP,Concours communs,
+CPE Lyon,Lyon,Lyon,"Électronique, télécomunications, informatique, chimie, génie des matériaux",Apprentissage,Dossier,
 Ecole Polytechnique,Versailles,Palaiseau,Généraliste,Centrale Supelec,Concours polytechnique,
 EILCO,Lille,Calais,Informatique,CCP,Banque d'épreuves CCP,Entretien de motivation + TIPE
 EILCO,Lille,Saint-Omer,Génie Industriel,CCP,Banque d'épreuves CCP,Entretien de motivation
@@ -77,8 +78,8 @@ INP-ENSEEIHT Toulouse,Toulouse,Toulouse,Génie Électronique et Automatique,CCP,
 INSA (ENSI Bourges),Orléans,Bourges,Risques industriels,CCP,Concours communs,
 INSA (ENSI Bourges),Orléans,Bourges,Sécurité - Technologies Informatiques,CCP,Concours communs,
 INSA Centre Val de Loire,Orléans,Bourges,Sécurité et Technologies Informatiques,Dossier,admissibilité à un concours,
-INSA Centre Val de Loire,Orléans,Bourges,Énergie,Risques et Environnement ( Apprentissage possible ),Dossier,admissibilité à un concours
-INSA Centre Val de Loire,Orléans,Bourges,Génie des Systèmes Industriels,Maîtrise des Risques Industriels,Dossier,admissibilité à un concours
+INSA Centre Val de Loire,Orléans,Bourges,Énergie, Risques et Environnement ( Apprentissage possible ),Dossier,admissibilité à un concours
+INSA Centre Val de Loire,Orléans,Bourges,Génie des Systèmes Industriels, Maîtrise des Risques Industriels,Dossier,admissibilité à un concours
 INSA Lyon,Lyon,Lyon,Génie Mécanique et conception ( Apprentissage possible ),Dossier,admissibilité à un concours,
 INSA Lyon,Lyon,Lyon,Génie Électrique ( Apprentissage possible ),Dossier,admissibilité à un concours,
 INSA Lyon,Lyon,Lyon,Télécommunications,,,
@@ -204,7 +205,7 @@ ECAM Lyon,Lyon,Lyon,Mécanique Energétique Génie Civil Acoustique ( Apprentiss
 ECAM Lyon,Lyon,Lyon,Génie des systèmes automatisés ( Partenariat Insa Lyon ) Apprentissage possible,Dossier,www.ecam.fr,
 ECAM Rennes ( Louis de Broglie ),Rennes,Rennes,Génie Industriel ( Apprentissage possible ),CCP,www.ecam-rennes.fr,
 ECAM Rennes ( Louis de Broglie ),Rennes,Rennes,Matériaux et Génie Industriel,CCP,www.ecam-rennes.fr,
-ECAM Rennes ( Louis de Broglie ),Rennes,Rennes,Informatique,Réseaux et Télécommunications,CCP,www.ecam-rennes.fr
+ECAM Rennes ( Louis de Broglie ),Rennes,Rennes,Informatique, Réseaux et Télécommunications,CCP,www.ecam-rennes.fr
 ECAM Rennes ( Louis de Broglie ),Rennes,Rennes,Ingénierie pédagogique et international,CCP,www.ecam-rennes.fr,
 ECAM Strasbourg Europe,Strasbourg,Strasbourg,,dossier,www.ecam-strasbourg.eu,
 Itii pays de la loire,Nantes,Nantes,Bâtiment Travaux public,Apprentissage  (Centrale Nantes),,
@@ -212,10 +213,21 @@ Itii pays de la loire,Nantes,Nantes,Technologies Numériques et système embarqu
 Itii pays de la loire,Nantes,Nantes,Ingénierie Logicielle,Apprentissage  (IMT Atlantique),,
 Itii pays de la loire,Nantes,Nantes,Maîtrise des énergies,Apprentissage  (Polytech Nantes),,
 Itii pays de la loire,Nantes,Nantes,Mécanique,Apprentissage  (Centrale Nantes),,
-Itii pays de la loire,Nantes,Nantes,"Sécurité, Prévention des risques",Apprentissage (Esaip),,
+Itii pays de la loire,Nantes,Nantes,Sécurité Prévention des risques,Apprentissage (Esaip),,
 ITII Lyon,Lyon,Lyon,ENERGIE Conception des Installations,Apprentissage  (Centrale Lyon),,
 ITII Lyon,Lyon,Lyon,ENERGIE Exploitation et Maintenance,Apprentissage  (ECAM Lyon),,
 ITII Lyon,Lyon,Lyon,Génie électrique,Apprentissage  (INSA Lyon),,
 ITII Lyon,Lyon,Lyon,Genie industriel et mécanique,Apprentissage  (ECAM Lyon),,
-ITII Lyon,Lyon,Lyon,"Genie mecanique, conception innovation de produits",Apprentissage  (INSA Lyon),,
+ITII Lyon,Lyon,Lyon,Genie mecanique conception innovation de produits,Apprentissage  (INSA Lyon),,
 ITII Lyon,Lyon,Lyon,Informatique et réseaux de communication,Apprentissage  (CPE Lyon),,
+ITII ,,,Mécanique électronique informatique — Chaque région a sa spécialité,Apprentissage,,www.itii-lyon.fr www.itii-2savoies.com www.itii-alsace.fr etc … 
+ENS Louis Lumière,Créteil,Noisy-Le-Grand,cinématographie son et photographie (prise de vue ou traitement des images) ,Concours spécifique,,www.ens-louis-lumière.fr
+IESSA,Versailles,Massy,"Ingénieurs électroniciens des systèmes de la sécurité aérienne, au sein de l'ENAC, Ecole Nationale de l’Aviation Civile. Les élèves sont rémunérés comme fonctionnaires stagiaires",Concours spécifique,,www.enac.fr
+ENGEES,,Strasbourg,école nationale du génie de l’eau et de l’environnement de Strasbourg ,Concours spécifique,,
+ECE Paris,Paris,Paris,Ecole privée généraliste,Dossier ,,
+EFREI,Paris,Paris,"Électronique, informatique, management — Privée",Dossier,,www.efrei.fr
+EIGSI,Poitiers,La Rochelle,Génie des systèmes industriels — Privée,Dossier,,www.eigsi.fr
+EME,Rennes,Rennes,Ecole des métiers de l’environnement — Privée,Dossier,,www.ecole-eme.com
+EPF,Créteil,Sceaux,"Mécanique, informatique, énergétique, aéronautique, électronique — Privée",Dossier,,www.epf.fr
+EPF,Reims,Troyes,"Mécanique, informatique, énergétique, aéronautique, électronique — Privée",Dossier,,www.epf.fr
+Groupe ESAIP,Angers,Angers,Informatique Réseaux télécom sécurité environnement prévention des risques — Privée,Dossier,,www.esaip.org
