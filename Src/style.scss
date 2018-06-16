@@ -18,12 +18,14 @@ body{
 .header{
 	h1{
 		text-align: center;
-		padding:10px ;
-		display:block;
-		color: $blanc;
-		background:$col1;
+		padding:10px;
 		font: 40px $font-titre;
 	}
+}
+.boite {
+	display: block;
+	color: $blanc;
+	background: $col1;
 }
 .maj{
 

@@ -16,7 +16,7 @@ Si des informations vues sur les plaquettes ou sites des écoles sont contradict
 
 Vous pouvez faire une recherche sur toutes les entrées du tableau grâce à la boite de saisie ci-dessous.
 
-Quelques exemples des possibilités :
+uelques exemples des possibilités :
 
 - **Paris** vous donnera toutes les écoles de l'académie de Paris.
 - **électronique** vous donnera toutes les écoles avec une filière électronique
@@ -31,11 +31,11 @@ Il est également possible de changer le critère de tri des écoles ( par défa
 :::maj
 !bash
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-date +Mise\ à\ jour\ le\ %d\ %h\ à\ %H:%M
+date +Dernière\ mise\ à\ jour\ le\ %d\ %h\ à\ %H:%M
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 :::
 
-!csv(Ecoles_TSI.csv)(Ecole|Académie|Ville|Spécialité|Type de recrutement|Informations complémentaires|Oral)
+!csv(Ecoles_TSI.csv)
 
 
 <script>$(document).ready(function() {
