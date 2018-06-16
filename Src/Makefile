@@ -5,7 +5,8 @@ all: ../HTML/index.html ../HTML/style.css
 	@echo "\033[0;31m$< --> $@\033[0m"
 	@~/.local/bin/pp $< | \
 		pandoc -s --template=template.html | \
-		sed -e s/\<table/\<table\ id=\"tableau\_ecole\"\ class=\"pure-table\ pure-table-responsive\ pure-table-striped\"/g >$@
+		sed -e s/\<a\ /\<a\ target=\"_blank\"\/g | \
+		sed -e s/\<table/\<table\ id=\"tableau\_ecole\"\ class=\"pure-table\ pure-table-responsive\ pure-table-striped\"/g > $@
 
 
 ../HTML/%.css: %.scss
