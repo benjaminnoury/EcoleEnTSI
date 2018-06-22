@@ -1,7 +1,11 @@
-all: ../HTML/index.html ../HTML/style.css
+Site=../HTML
+commit=$(shell zenity --entry --title="Commit" --text="Info du Commit")
 
 
-../HTML/%.html: %.md Ecoles_TSI.csv template.html Makefile
+
+all: $(Site)/index.html $(Site)/style.css
+
+$(Site)/%.html: %.md Ecoles_TSI.csv template.html Makefile
 	@echo "\033[0;31m$< --> $@\033[0m"
 	@~/.local/bin/pp $< | \
 		pandoc -s --template=template.html | \
@@ -9,9 +13,10 @@ all: ../HTML/index.html ../HTML/style.css
 		sed -e s/\<table/\<table\ id=\"tableau\_ecole\"\ class=\"pure-table\ pure-table-responsive\ pure-table-striped\"/g > $@
 
 
-../HTML/%.css: %.scss
+$(Site)/%.css: %.scss
 	@echo "\033[0;31m$< --> $@\033[0m"
 	@sass $< $@ --style compressed
+	@rm $@.map
 
 %.csv: %.xls
 	@echo "\033[0;31m$< --> $@\033[0m"
@@ -19,12 +24,15 @@ all: ../HTML/index.html ../HTML/style.css
 		csv:"Text - txt - csv (StarCalc)":"44,34,0,1,,0" \
 		--headless --outdir . $<
 
-.phony: view clean
+upload: $(Site)/index.html $(Site)/style.css
+	@echo "\033[0;31mMise à jour version en ligne\033[0m"
+	@cd .. ; git add --all ; git commit -m '$(commit)' ;  git push
+
+.phony: view clean upload
 
 clean: 
-	rm -f ../HTML/index.html
-	rm -f ../HTML/style.css
-
+	rm -f $(Site)/index.html
+	rm -f $(Site)/style.css
 
 view:
-	chromium-browser ../HTML/index.html
+	chromium-browser $(Site)/index.html
