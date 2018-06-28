@@ -16,7 +16,7 @@ Si des informations vues sur les plaquettes ou sites des écoles sont contradict
 
 Vous pouvez faire une recherche sur toutes les entrées du tableau grâce à la boite de saisie ci-dessous.
 
-uelques exemples des possibilités :
+Quelques exemples des possibilités :
 
 - **Paris** vous donnera toutes les écoles de l'académie de Paris.
 - **électronique** vous donnera toutes les écoles avec une filière électronique
@@ -31,7 +31,8 @@ Il est également possible de changer le critère de tri des écoles ( par défa
 :::maj
 !bash
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-date +Dernière\ mise\ à\ jour\ le\ %d\ %h\ à\ %H:%M
+MAJ=$(ls -l --full-time Ecoles_TSI.xls  | awk -F' ' {'print $6'})
+date -d $MAJ +Dernière\ mise\ à\ jour\ le\ %d\ %h\ %Y
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 :::
 
